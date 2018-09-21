@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
         "#include<stdio.h>\n"
         "\n"
         "int main() {\n"
-        "   return 0;\n"
+        "    return 0;\n"
         "}\n"
         "" << endl;
         file.close();
