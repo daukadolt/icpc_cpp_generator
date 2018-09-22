@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
         file << ""
         "#include <iostream>\n"
         "\n"
+        "using namespace std;\n\n"
         "int main() {\n"
         "    return 0;\n"
         "}\n"
