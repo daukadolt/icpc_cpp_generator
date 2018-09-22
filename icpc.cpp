@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
     for(int i = 1; i<argc; i++) {
         ofstream file(string(argv[i])+".cpp");
         file << ""
-        "#include <stdio.h>\n"
+        "#include <iostream>\n"
         "\n"
         "int main() {\n"
         "    return 0;\n"
